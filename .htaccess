@@ -1,4 +1,4 @@
 #redirect non-www to www and stop subdomains from redirecting to folder
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^Coinsunion.newmember.cc$
+RewriteCond %{HTTP_HOST} ^Ccoinsunion.site$
 RewriteRule (.*) coinsunion.site/$1 [R=301,L]
